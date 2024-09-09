@@ -14,7 +14,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/ws").setAllowedOrigins("https://doodlefrontend.vercel.app/", "http://localhost:5173/");
+        registry.addEndpoint("/ws").setAllowedOrigins("https://doodle-main-oelu-gh2n829sn-naveenchandraadhikaris-projects.vercel.app/", "http://localhost:5173/");
     }
 
     @Override
